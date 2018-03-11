@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+	<Resource name="jdbc/LiveDataSource" auth="Container"
+     type="javax.sql.DataSource"
+     username="postgres" password="root" driverClassName="org.postgresql.Driver"
+     url="jdbc:postgresql://localhost:5433/Askisi02"
+     global="jdbc/LiveDataSource"/>
+</Context>

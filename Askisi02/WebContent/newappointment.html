@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Hospital Website</title>
+</head>
+<body>
+<head> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+</head>
+<div id="appointments">
+	<h1>Select Doctor's Specialty</h1>
+	<form action="./patientservlet" method="get">
+		<select required id="options" name="specialty">
+			<option value="Cardiologist">Cardiologist</option>
+			<option value="Pathologist">Pathologist</option>
+			<option value="Orthopedic">Orthopedic</option>
+			<option value="Rheumatologist">Rheumatologist</option>
+		</select>
+		<input type="submit" name="requestType" value="Search"></input>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Hospital Website</title>
+</head>
+<body>
+<head> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
+</head>
+<div id="menus">
+	<h1>Doctor Options</h1>
+	<form>
+		<input type="submit" formaction="./doctorservlet" formmethod="post" name="requestType" value="View Info"></input><br><br>
+		<input type="submit" formaction="./doctorservlet" formmethod="get" name="requestType" value="View Appointments"></input><br><br>
+		<input type="submit" formaction="./appointmentplans.html" value="Plan Appointments"></input><br><br>
+		<input type="submit" formaction="./doctorservlet" formmethod="get" name="requestType" value="Cancel Appointment"></input><br><br>
+		<input type="submit" formaction="./doctorservlet" formmethod="post" name="requestType" value="Logout"></input>
+	</form>
+</div>
+</body>
+</html>
