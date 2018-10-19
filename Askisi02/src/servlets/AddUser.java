@@ -18,7 +18,6 @@ public class AddUser extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	private DataSource datasource = null;
-	
 	DynamicPages dynPage = new DynamicPages();
 				
 	public void init() throws ServletException {
